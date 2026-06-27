@@ -36,14 +36,9 @@ z-index:100;
 
 }
 
-.logo{
-
-font-size:28px;
-
-font-weight:800;
-
-color:#D6A74E;
-
+.logo img{
+    height:60px;
+    width:auto;
 }
 
 nav{
