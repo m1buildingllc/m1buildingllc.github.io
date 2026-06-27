@@ -336,3 +336,66 @@ transition:.3s;
 }
 
 }
+
+.services{
+    padding:120px 8%;
+    background:#111;
+}
+
+.services h2{
+    text-align:center;
+    font-size:52px;
+    margin-bottom:70px;
+}
+
+.services-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+}
+
+.service-card{
+
+background:#1c1c1c;
+
+padding:45px;
+
+border-radius:18px;
+
+transition:.35s;
+
+border:1px solid #2a2a2a;
+
+}
+
+.service-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#C89B3C;
+
+box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+}
+
+.service-card h3{
+
+color:#C89B3C;
+
+margin-bottom:20px;
+
+font-size:26px;
+
+}
+
+.service-card p{
+
+line-height:30px;
+
+color:#cfcfcf;
+
+}
