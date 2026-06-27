@@ -220,4 +220,119 @@ text-align:center;
 
 background:#181818;
 
+
+    .hero{
+    position:relative;
+    height:100vh;
+    background:url("../images/hero.jpg") center center/cover no-repeat;
+    display:flex;
+    align-items:center;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to right,
+        rgba(10,10,10,.88),
+        rgba(10,10,10,.45)
+    );
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:650px;
+
+    margin-left:8%;
+
+}
+
+.subtitle{
+
+    color:#C89B3C;
+
+    letter-spacing:4px;
+
+    font-size:15px;
+
+    text-transform:uppercase;
+
+}
+
+.hero h1{
+
+    font-size:72px;
+
+    line-height:1.1;
+
+    margin:25px 0;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+    line-height:34px;
+
+    color:#ddd;
+
+    margin-bottom:45px;
+
+}
+
+.hero-buttons{
+
+display:flex;
+
+gap:20px;
+
+}
+
+.primary-btn{
+
+background:#C89B3C;
+
+padding:18px 40px;
+
+border-radius:10px;
+
+color:white;
+
+text-decoration:none;
+
+font-weight:700;
+
+}
+
+.secondary-btn{
+
+padding:18px 40px;
+
+border:2px solid white;
+
+border-radius:10px;
+
+text-decoration:none;
+
+color:white;
+
+font-weight:700;
+
+}
+
+.secondary-btn:hover{
+
+background:white;
+
+color:black;
+
+transition:.3s;
+
+}
+
 }
