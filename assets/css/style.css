@@ -482,3 +482,99 @@ color:#cfcfcf;
 .project-card:hover{
     transform:translateY(-8px);
 }
+
+
+.contact{
+    padding:120px 8%;
+    background:#181818;
+}
+
+.contact h2{
+    text-align:center;
+    font-size:48px;
+    margin-bottom:60px;
+}
+
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+}
+
+.contact-info h3{
+    color:#C89B3C;
+    margin-bottom:25px;
+}
+
+.contact-info p{
+    margin-bottom:18px;
+    color:#ddd;
+    font-size:18px;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    background:#222;
+
+    border:1px solid #333;
+
+    color:white;
+
+    padding:18px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+
+.contact-form textarea{
+
+    min-height:180px;
+
+    resize:vertical;
+
+}
+
+.contact-form button{
+
+    background:#C89B3C;
+
+    border:none;
+
+    padding:18px;
+
+    border-radius:10px;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.contact-form button:hover{
+
+    transform:translateY(-3px);
+
+}
+
+@media(max-width:900px){
+
+.contact-container{
+
+grid-template-columns:1fr;
+
+}
+
+}
