@@ -22,6 +22,13 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
+        document.getElementById("navHome").innerHTML = "Home";
+document.getElementById("navAbout").innerHTML = "About";
+document.getElementById("navServices").innerHTML = "Services";
+document.getElementById("navProjects").innerHTML = "Projects";
+document.getElementById("navGallery").innerHTML = "Gallery";
+document.getElementById("navContact").innerHTML = "Contact";
+
         document.getElementById("heroTitle").innerHTML =
         "Building Quality.<br>Creating Value.";
 
@@ -32,6 +39,13 @@ function setLanguage(lang){
 
     if(lang === "hy"){
 
+        document.getElementById("navHome").innerHTML = "Գլխավոր";
+document.getElementById("navAbout").innerHTML = "Մեր մասին";
+document.getElementById("navServices").innerHTML = "Ծառայություններ";
+document.getElementById("navProjects").innerHTML = "Նախագծեր";
+document.getElementById("navGallery").innerHTML = "Պատկերասրահ";
+document.getElementById("navContact").innerHTML = "Կապ";
+
         document.getElementById("heroTitle").innerHTML =
         "Կառուցում ենք որակ,<br>ստեղծում արժեք։";
 
@@ -41,6 +55,13 @@ function setLanguage(lang){
     }
 
     if(lang === "ru"){
+
+        document.getElementById("navHome").innerHTML = "Главная";
+document.getElementById("navAbout").innerHTML = "О нас";
+document.getElementById("navServices").innerHTML = "Услуги";
+document.getElementById("navProjects").innerHTML = "Проекты";
+document.getElementById("navGallery").innerHTML = "Галерея";
+document.getElementById("navContact").innerHTML = "Контакты";
 
         document.getElementById("heroTitle").innerHTML =
         "Строим качество.<br>Создаем ценность.";
