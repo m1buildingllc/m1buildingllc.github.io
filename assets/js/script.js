@@ -12,11 +12,7 @@ faqItems.forEach(item => {
 
 });
 
-function setLanguage(lang){
 
-    alert("Selected language: " + lang);
-
-}
 
 function setLanguage(lang){
 
