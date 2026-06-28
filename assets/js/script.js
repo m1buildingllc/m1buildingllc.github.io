@@ -309,20 +309,20 @@ contactForm.addEventListener("submit", function (e) {
 
     })
 
-    .then(function () {
+   .then(function () {
 
-        alert("✅ Your message has been sent successfully!");
+    showToast("✅ Message sent successfully!","success");
 
-        contactForm.reset();
+    contactForm.reset();
 
-    })
+})
 
-    .catch(function (error) {
+   .catch(function (error) {
 
-        alert("❌ Failed to send message.");
+    showToast("❌ Failed to send message.","error");
 
-        console.log(error);
+    console.log(error);
 
-    });
+});
 
 });
