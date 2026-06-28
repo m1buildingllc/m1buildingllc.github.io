@@ -2,6 +2,23 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
+        document.getElementById("footerSlogan").innerHTML =
+"Building Quality. Creating Value.";
+
+document.getElementById("footerLinksTitle").innerHTML =
+"Quick Links";
+
+document.getElementById("footerHome").innerHTML = "Home";
+document.getElementById("footerServices").innerHTML = "Services";
+document.getElementById("footerProjects").innerHTML = "Projects";
+document.getElementById("footerContactLink").innerHTML = "Contact";
+
+document.getElementById("footerContactTitle").innerHTML =
+"Contact";
+
+document.getElementById("copyright").innerHTML =
+"© 2026 M1 BUILDING LLC. All Rights Reserved.";
+
         document.getElementById("contactTitle").innerHTML = "Contact Us";
 document.getElementById("contactCompany").innerHTML = "M1 BUILDING LLC";
 
@@ -123,6 +140,23 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
+        document.getElementById("footerSlogan").innerHTML =
+"Կառուցում ենք որակ։ Ստեղծում արժեք։";
+
+document.getElementById("footerLinksTitle").innerHTML =
+"Արագ հղումներ";
+
+document.getElementById("footerHome").innerHTML = "Գլխավոր";
+document.getElementById("footerServices").innerHTML = "Ծառայություններ";
+document.getElementById("footerProjects").innerHTML = "Նախագծեր";
+document.getElementById("footerContactLink").innerHTML = "Կապ";
+
+document.getElementById("footerContactTitle").innerHTML =
+"Կապ";
+
+document.getElementById("copyright").innerHTML =
+"© 2026 M1 BUILDING LLC. Բոլոր իրավունքները պաշտպանված են։";
+
         document.getElementById("contactTitle").innerHTML = "Կապ մեզ հետ";
 document.getElementById("contactCompany").innerHTML = "M1 BUILDING LLC";
 
@@ -241,6 +275,23 @@ document.getElementById("navContact").innerHTML = "Կապ";
     }
 
     if(lang === "ru"){
+
+        document.getElementById("footerSlogan").innerHTML =
+"Строим качество. Создаем ценность.";
+
+document.getElementById("footerLinksTitle").innerHTML =
+"Быстрые ссылки";
+
+document.getElementById("footerHome").innerHTML = "Главная";
+document.getElementById("footerServices").innerHTML = "Услуги";
+document.getElementById("footerProjects").innerHTML = "Проекты";
+document.getElementById("footerContactLink").innerHTML = "Контакты";
+
+document.getElementById("footerContactTitle").innerHTML =
+"Контакты";
+
+document.getElementById("copyright").innerHTML =
+"© 2026 M1 BUILDING LLC. Все права защищены.";
 
         document.getElementById("contactTitle").innerHTML = "Свяжитесь с нами";
 document.getElementById("contactCompany").innerHTML = "M1 BUILDING LLC";
