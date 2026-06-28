@@ -1,3 +1,6 @@
+emailjs.init("3VK5q2fX3g8WL7AYX");
+
+
 // =========================
 // FAQ
 // =========================
@@ -270,7 +273,7 @@ if (lightbox && lightboxImg && closeLightbox) {
 }
 
 
-const contactForm = document.querySelector(".contact-form");
+const contactForm = document.getElementById("contactForm");
 
 contactForm.addEventListener("submit", function (e) {
 
