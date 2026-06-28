@@ -91,13 +91,13 @@ document.getElementById("service2Text").innerHTML =
 "High-quality concrete construction and finishing services.";
 
 document.getElementById("service3Text").innerHTML =
-"Premium paving stone installation for residential and commercial projects.";
+"We build beautiful and comfortable spaces.";
 
 document.getElementById("service4Text").innerHTML =
-"Durable curb installation with precision and quality.";
+"Facade work: quality, durability, and beauty.";
 
 document.getElementById("service5Text").innerHTML =
-"Smart irrigation systems for gardens and green spaces.";
+"Repair work: quality, accuracy and reliability.";
 
 document.getElementById("service6Text").innerHTML =
 "Modern outdoor lighting solutions for landscapes and buildings.";
@@ -249,13 +249,13 @@ document.getElementById("service2Text").innerHTML =
 "Բարձրորակ բետոնային աշխատանքներ և ավարտական լուծումներ։";
 
 document.getElementById("service3Text").innerHTML =
-"Սալաքարերի պրոֆեսիոնալ տեղադրում բնակելի և առևտրային տարածքներում։";
+"Կառուցում ենք գեղեցիկ և հարմարավետ տարածքներ";
 
 document.getElementById("service4Text").innerHTML =
-"Բորդյուրների ճշգրիտ և դիմացկուն տեղադրում։";
+"Ֆասադային աշխատանքներ՝ որակ, ամրություն և գեղեցկություն։";
 
 document.getElementById("service5Text").innerHTML =
-"Ժամանակակից ոռոգման համակարգերի տեղադրում այգիների և կանաչ տարածքների համար։";
+"Վերանորոգման աշխատանքներ՝ որակ, ճշգրտություն և հուսալիություն։";
 
 document.getElementById("service6Text").innerHTML =
 "Արտաքին լուսավորության ժամանակակից լուծումներ բակերի և շենքերի համար։";
@@ -405,13 +405,13 @@ document.getElementById("service2Text").innerHTML =
 "Высококачественные бетонные и отделочные работы.";
 
 document.getElementById("service3Text").innerHTML =
-"Профессиональная укладка тротуарной плитки для жилых и коммерческих объектов.";
+"Мы создаём красивые и комфортабельные пространства.";
 
 document.getElementById("service4Text").innerHTML =
-"Качественная установка бордюров с высокой точностью.";
+"Фасадные работы: качество, долговечность и красота.";
 
 document.getElementById("service5Text").innerHTML =
-"Современные системы полива для садов и зеленых зон.";
+"Ремонтные работы: качество, точность и надежность.";
 
 document.getElementById("service6Text").innerHTML =
 "Современные решения наружного освещения для зданий и территорий.";
