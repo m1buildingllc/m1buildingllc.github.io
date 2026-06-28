@@ -1080,3 +1080,32 @@ html{
     opacity:1;
     transform:translateY(0);
 }
+
+#backToTop{
+    position:fixed;
+    right:25px;
+    bottom:105px;
+
+    width:55px;
+    height:55px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#C89B3C;
+    color:#fff;
+
+    font-size:24px;
+    cursor:pointer;
+
+    display:none;
+
+    z-index:9998;
+
+    transition:.3s;
+}
+
+#backToTop:hover{
+    transform:translateY(-4px);
+    background:#D4AF37;
+}
