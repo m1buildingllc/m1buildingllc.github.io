@@ -1,6 +1,22 @@
 function setLanguage(lang){
 
     if(lang === "en"){
+
+        document.getElementById("testimonialsTitle").innerHTML =
+"What Our Clients Say";
+
+document.getElementById("testimonial1").innerHTML =
+"Excellent quality, professional team and completed on time. Highly recommended.";
+
+document.getElementById("testimonial2").innerHTML =
+"The paving and landscaping exceeded our expectations. Outstanding work.";
+
+document.getElementById("testimonial3").innerHTML =
+"Reliable company with great attention to detail. We will definitely work together again.";
+
+document.getElementById("client1").innerHTML = "Residential Client";
+document.getElementById("client2").innerHTML = "Business Owner";
+document.getElementById("client3").innerHTML = "Private Customer";
         document.getElementById("galleryTitle").innerHTML =
 "Project Gallery";
         document.getElementById("project1Text").innerHTML = "Yerevan, Armenia";
@@ -75,6 +91,22 @@ document.getElementById("navContact").innerHTML = "Contact";
     }
 
     if(lang === "hy"){
+
+        document.getElementById("testimonialsTitle").innerHTML =
+"Մեր հաճախորդների կարծիքները";
+
+document.getElementById("testimonial1").innerHTML =
+"Գերազանց որակ, պրոֆեսիոնալ թիմ և աշխատանքը կատարվեց ժամանակին։ Խորհուրդ ենք տալիս։";
+
+document.getElementById("testimonial2").innerHTML =
+"Ասֆալտապատման և բարեկարգման աշխատանքները գերազանցեցին մեր սպասելիքները։";
+
+document.getElementById("testimonial3").innerHTML =
+"Հուսալի ընկերություն է, որը մեծ ուշադրություն է դարձնում յուրաքանչյուր մանրուքի։";
+
+document.getElementById("client1").innerHTML = "Բնակելի հաճախորդ";
+document.getElementById("client2").innerHTML = "Բիզնես հաճախորդ";
+document.getElementById("client3").innerHTML = "Մասնավոր պատվիրատու";
 document.getElementById("galleryTitle").innerHTML =
 "Նախագծերի պատկերասրահ";
         document.getElementById("project1Text").innerHTML = "Երևան, Հայաստան";
@@ -148,6 +180,22 @@ document.getElementById("navContact").innerHTML = "Կապ";
     }
 
     if(lang === "ru"){
+
+        document.getElementById("testimonialsTitle").innerHTML =
+"Отзывы наших клиентов";
+
+document.getElementById("testimonial1").innerHTML =
+"Отличное качество, профессиональная команда и своевременное выполнение работ.";
+
+document.getElementById("testimonial2").innerHTML =
+"Работы по благоустройству и асфальтированию превзошли наши ожидания.";
+
+document.getElementById("testimonial3").innerHTML =
+"Надежная компания с вниманием к каждой детали.";
+
+document.getElementById("client1").innerHTML = "Частный клиент";
+document.getElementById("client2").innerHTML = "Владелец бизнеса";
+document.getElementById("client3").innerHTML = "Индивидуальный заказчик";
 
         document.getElementById("galleryTitle").innerHTML =
 "Галерея проектов";
