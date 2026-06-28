@@ -1240,3 +1240,39 @@ html{
 .floating-buttons a:active{
     transform: translateX(-10px) scale(.95);
 }
+
+#backToTop{
+    position: fixed;
+    right: 110px;   /* WhatsApp-ի ձախ կողմում */
+    bottom: 20px;
+
+    width: 64px;
+    height: 64px;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 999;
+    transition: all .35s ease;
+}
+
+#backToTop img{
+    width: 64px;
+    height: 64px;
+    transition: all .35s ease;
+}
+
+#backToTop:hover{
+    transform: translateY(-6px);
+}
+
+#backToTop:hover img{
+    transform: scale(1.15);
+    filter:
+        drop-shadow(0 0 8px rgba(212,175,55,.8))
+        drop-shadow(0 0 18px rgba(212,175,55,.5));
+}
