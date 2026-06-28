@@ -2,6 +2,8 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
+        document.getElementById("heroQuoteBtn").innerHTML = "Get a Quote";
+document.getElementById("servicesBtn").innerHTML = "Our Services";
         document.getElementById("footerSlogan").innerHTML =
 "Building Quality. Creating Value.";
 
@@ -140,6 +142,8 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
+        document.getElementById("heroQuoteBtn").innerHTML = "Ստանալ առաջարկ";
+        document.getElementById("servicesBtn").innerHTML = "Մեր ծառայությունները";
         document.getElementById("footerSlogan").innerHTML =
 "Կառուցում ենք որակ։ Ստեղծում արժեք։";
 
@@ -276,6 +280,8 @@ document.getElementById("navContact").innerHTML = "Կապ";
 
     if(lang === "ru"){
 
+        document.getElementById("heroQuoteBtn").innerHTML = "Получить предложение";
+document.getElementById("servicesBtn").innerHTML = "Наши услуги";
         document.getElementById("footerSlogan").innerHTML =
 "Строим качество. Создаем ценность.";
 
