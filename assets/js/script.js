@@ -135,7 +135,7 @@ document.getElementById("navContact").innerHTML = "Контакты";
 }
 
 const menuToggle = document.getElementById("menuToggle");
-const nav = document.querySelector("nav");
+const nav = document.getElementById("mainMenu");
 
 menuToggle.addEventListener("click", () => {
     nav.classList.toggle("active");
