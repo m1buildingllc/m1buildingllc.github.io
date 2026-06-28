@@ -902,7 +902,7 @@ color:#cfcfcf;
 
     nav{
         position:absolute;
-        top:85px;
+        top:70px;
         left:0;
         width:100%;
         background:#111;
@@ -937,6 +937,23 @@ color:#cfcfcf;
         width:220px;
         text-align:center;
         margin-top:15px;
+    }
+
+}
+nav{
+    animation: menuOpen .25s ease;
+}
+
+@keyframes menuOpen{
+
+    from{
+        opacity:0;
+        transform:translateY(-15px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
     }
 
 }
