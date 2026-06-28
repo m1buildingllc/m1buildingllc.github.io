@@ -934,19 +934,23 @@ color:#cfcfcf;
     }
 
     nav{
-        position:absolute;
-        top:70px;
-        left:0;
-        width:100%;
-        background:#111;
-        display:none;
-        flex-direction:column;
-        align-items:center;
-        padding:30px 20px;
-        gap:20px;
-        border-radius:0 0 16px 16px;
-        box-shadow:0 15px 40px rgba(0,0,0,.4);
-    }
+    position:absolute;
+    top:70px;
+    right:15px;
+    left:auto;
+    width:260px;
+
+    background:#151515;
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    gap:18px;
+
+    padding:25px;
+    border-radius:15px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.45);
+}
 
     nav.active{
         display:flex;
