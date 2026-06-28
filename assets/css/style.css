@@ -1109,3 +1109,41 @@ html{
     transform:translateY(-4px);
     background:#D4AF37;
 }
+
+#loader{
+    position:fixed;
+    inset:0;
+    background:#111;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    z-index:10000;
+
+    transition:opacity .5s ease;
+}
+
+.loader-logo img{
+    width:120px;
+    animation:loaderZoom 1.5s infinite alternate;
+}
+
+@keyframes loaderZoom{
+
+    from{
+        transform:scale(.9);
+        opacity:.7;
+    }
+
+    to{
+        transform:scale(1.05);
+        opacity:1;
+    }
+
+}
+
+#loader.hide{
+    opacity:0;
+    visibility:hidden;
+}
