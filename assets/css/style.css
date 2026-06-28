@@ -1147,3 +1147,18 @@ html{
     opacity:0;
     visibility:hidden;
 }
+
+#progressBar{
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:0%;
+    height:4px;
+
+    background:#C89B3C;
+
+    z-index:10001;
+
+    transition:width .1s linear;
+}
