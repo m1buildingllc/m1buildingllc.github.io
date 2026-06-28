@@ -2,6 +2,16 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
+        document.getElementById("contactTitle").innerHTML = "Contact Us";
+document.getElementById("contactCompany").innerHTML = "M1 BUILDING LLC";
+
+document.getElementById("nameInput").placeholder = "Your Name";
+document.getElementById("emailInput").placeholder = "Your Email";
+document.getElementById("phoneInput").placeholder = "Phone Number";
+document.getElementById("messageInput").placeholder = "Your Message";
+
+document.getElementById("sendBtn").innerHTML = "Send Message";
+
         document.getElementById("faqTitle").innerHTML =
 "Frequently Asked Questions";
 
@@ -113,6 +123,16 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
+        document.getElementById("contactTitle").innerHTML = "Կապ մեզ հետ";
+document.getElementById("contactCompany").innerHTML = "M1 BUILDING LLC";
+
+document.getElementById("nameInput").placeholder = "Ձեր անունը";
+document.getElementById("emailInput").placeholder = "Ձեր էլ. փոստը";
+document.getElementById("phoneInput").placeholder = "Հեռախոսահամար";
+document.getElementById("messageInput").placeholder = "Ձեր հաղորդագրությունը";
+
+document.getElementById("sendBtn").innerHTML = "Ուղարկել";
+
         document.getElementById("faqTitle").innerHTML =
 "Հաճախ տրվող հարցեր";
 
@@ -221,6 +241,16 @@ document.getElementById("navContact").innerHTML = "Կապ";
     }
 
     if(lang === "ru"){
+
+        document.getElementById("contactTitle").innerHTML = "Свяжитесь с нами";
+document.getElementById("contactCompany").innerHTML = "M1 BUILDING LLC";
+
+document.getElementById("nameInput").placeholder = "Ваше имя";
+document.getElementById("emailInput").placeholder = "Ваш Email";
+document.getElementById("phoneInput").placeholder = "Номер телефона";
+document.getElementById("messageInput").placeholder = "Ваше сообщение";
+
+document.getElementById("sendBtn").innerHTML = "Отправить";
 document.getElementById("faqTitle").innerHTML =
 "Часто задаваемые вопросы";
 
