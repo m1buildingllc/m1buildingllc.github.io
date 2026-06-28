@@ -16,7 +16,7 @@ faqItems.forEach(item => {
 
 
 
-const menuToggle = document.getElementById("menuToggle");
+
 const nav = document.getElementById("mainMenu");
 
 menuToggle.addEventListener("click", () => {
