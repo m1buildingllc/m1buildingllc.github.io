@@ -131,10 +131,10 @@ document.getElementById("why4").innerHTML = "Guaranteed Results";
         document.getElementById("servicesTitle").innerHTML = "Our Services";
 
 document.getElementById("service1").innerHTML = "Asphalt Paving";
-document.getElementById("service2").innerHTML = "Concrete Works";
-document.getElementById("service3").innerHTML = "Paving Stones";
-document.getElementById("service4").innerHTML = "Curbstone Installation";
-document.getElementById("service5").innerHTML = "Irrigation Systems";
+document.getElementById("service2").innerHTML = "Concrete and reinforced concrete works";
+document.getElementById("service3").innerHTML = "Improvement works";
+document.getElementById("service4").innerHTML = "Facade works";
+document.getElementById("service5").innerHTML = "Renovation work";
 document.getElementById("service6").innerHTML = "Outdoor Lighting";
 
         document.getElementById("navHome").innerHTML = "Home";
@@ -288,10 +288,10 @@ document.getElementById("why4").innerHTML = "Երաշխավորված արդյո
         document.getElementById("servicesTitle").innerHTML = "Մեր ծառայությունները";
 
 document.getElementById("service1").innerHTML = "Ասֆալտապատման աշխատանքներ";
-document.getElementById("service2").innerHTML = "Բետոնային աշխատանքներ";
-document.getElementById("service3").innerHTML = "Սալաքարերի տեղադրում";
-document.getElementById("service4").innerHTML = "Բորդյուրների տեղադրում";
-document.getElementById("service5").innerHTML = "Ոռոգման համակարգեր";
+document.getElementById("service2").innerHTML = "Բետոնային և երկաթբետոնե աշխատանքներ";
+document.getElementById("service3").innerHTML = "Բարեկարգման աշխատանքներ";
+document.getElementById("service4").innerHTML = "Ֆասադային աշխատանքներ";
+document.getElementById("service5").innerHTML = "Վերանորոգման աշխատանքներ";
 document.getElementById("service6").innerHTML = "Արտաքին լուսավորություն";
 
         document.getElementById("navHome").innerHTML = "Գլխավոր";
@@ -443,10 +443,10 @@ document.getElementById("why4").innerHTML = "Гарантированный ре
         document.getElementById("servicesTitle").innerHTML = "Наши услуги";
 
 document.getElementById("service1").innerHTML = "Асфальтирование";
-document.getElementById("service2").innerHTML = "Бетонные работы";
-document.getElementById("service3").innerHTML = "Укладка тротуарной плитки";
-document.getElementById("service4").innerHTML = "Установка бордюров";
-document.getElementById("service5").innerHTML = "Системы полива";
+document.getElementById("service2").innerHTML = "Бетонные и железобетонные работы";
+document.getElementById("service3").innerHTML = "Благоустройство";
+document.getElementById("service4").innerHTML = "Фасадные работы";
+document.getElementById("service5").innerHTML = "Ремонтные работы";
 document.getElementById("service6").innerHTML = "Наружное освещение";
 
         document.getElementById("navHome").innerHTML = "Главная";
