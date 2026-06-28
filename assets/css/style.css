@@ -554,6 +554,22 @@ color:#cfcfcf;
 
 @media(max-width:900px){
 
+    .language-switcher{
+    display:none;
+}
+
+.btn{
+    display:none;
+}
+
+header{
+    justify-content:space-between;
+}
+
+.logo{
+    margin-right:auto;
+}
+
 .contact-container{
     grid-template-columns:1fr;
 }
