@@ -2,6 +2,18 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
+        document.getElementById("whyText1").innerHTML =
+"We use durable, high-quality materials for every project.";
+
+document.getElementById("whyText2").innerHTML =
+"Our skilled professionals deliver precise workmanship.";
+
+document.getElementById("whyText3").innerHTML =
+"Projects are completed on schedule without compromising quality.";
+
+document.getElementById("whyText4").innerHTML =
+"Customer satisfaction and long-term reliability are our priority.";
+
         document.getElementById("heroQuoteBtn").innerHTML = "Get a Quote";
 document.getElementById("servicesBtn").innerHTML = "Our Services";
         document.getElementById("footerSlogan").innerHTML =
@@ -142,6 +154,18 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
+        document.getElementById("whyText1").innerHTML =
+"Մենք օգտագործում ենք բարձրորակ և դիմացկուն նյութեր յուրաքանչյուր նախագծի համար։";
+
+document.getElementById("whyText2").innerHTML =
+"Մեր փորձառու մասնագետները ապահովում են ճշգրիտ և որակյալ աշխատանք։";
+
+document.getElementById("whyText3").innerHTML =
+"Նախագծերն ավարտվում են սահմանված ժամկետում՝ առանց որակի զիջման։";
+
+document.getElementById("whyText4").innerHTML =
+"Հաճախորդի գոհունակությունն ու երկարաժամկետ հուսալիությունը մեր առաջնահերթությունն են։";
+
         document.getElementById("heroQuoteBtn").innerHTML = "Ստանալ առաջարկ";
         document.getElementById("servicesBtn").innerHTML = "Մեր ծառայությունները";
         document.getElementById("footerSlogan").innerHTML =
@@ -280,6 +304,17 @@ document.getElementById("navContact").innerHTML = "Կապ";
 
     if(lang === "ru"){
 
+        document.getElementById("whyText1").innerHTML =
+"Мы используем качественные и долговечные материалы для каждого проекта.";
+
+document.getElementById("whyText2").innerHTML =
+"Наши опытные специалисты выполняют работу профессионально и точно.";
+
+document.getElementById("whyText3").innerHTML =
+"Проекты выполняются в срок без ущерба для качества.";
+
+document.getElementById("whyText4").innerHTML =
+"Удовлетворенность клиентов и долгосрочная надежность — наш главный приоритет.";
         document.getElementById("heroQuoteBtn").innerHTML = "Получить предложение";
 document.getElementById("servicesBtn").innerHTML = "Наши услуги";
         document.getElementById("footerSlogan").innerHTML =
