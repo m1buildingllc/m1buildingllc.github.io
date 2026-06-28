@@ -876,3 +876,39 @@ color:#cfcfcf;
 .language-switcher button:hover{
     background:#C89B3C;
 }
+
+.menu-toggle{
+    display:none;
+    font-size:32px;
+    color:#fff;
+    cursor:pointer;
+}
+
+@media (max-width:900px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    nav{
+        position:absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        background:#111;
+        display:none;
+        flex-direction:column;
+        gap:0;
+        padding:20px;
+        border-radius:0 0 15px 15px;
+    }
+
+    nav.active{
+        display:flex;
+    }
+
+    nav a{
+        padding:15px 0;
+    }
+
+}
