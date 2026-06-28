@@ -2,6 +2,27 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
+        document.getElementById("faqTitle").innerHTML =
+"Frequently Asked Questions";
+
+document.getElementById("faqQ1").innerHTML =
+"What services do you provide?";
+
+document.getElementById("faqA1").innerHTML =
+"We provide asphalt paving, concrete works, paving stone installation, landscaping, irrigation systems and outdoor lighting.";
+
+document.getElementById("faqQ2").innerHTML =
+"Do you offer free estimates?";
+
+document.getElementById("faqA2").innerHTML =
+"Yes. We provide free consultations and project estimates.";
+
+document.getElementById("faqQ3").innerHTML =
+"Where do you work?";
+
+document.getElementById("faqA3").innerHTML =
+"We provide services throughout Armenia.";
+
         document.getElementById("testimonialsTitle").innerHTML =
 "What Our Clients Say";
 
@@ -92,6 +113,26 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
+        document.getElementById("faqTitle").innerHTML =
+"Հաճախ տրվող հարցեր";
+
+document.getElementById("faqQ1").innerHTML =
+"Ի՞նչ ծառայություններ եք մատուցում։";
+
+document.getElementById("faqA1").innerHTML =
+"Մենք իրականացնում ենք ասֆալտապատման, բետոնային, սալաքարերի տեղադրման, բարեկարգման, ոռոգման համակարգերի և արտաքին լուսավորության աշխատանքներ։";
+
+document.getElementById("faqQ2").innerHTML =
+"Տրամադրո՞ւմ եք անվճար նախահաշիվ։";
+
+document.getElementById("faqA2").innerHTML =
+"Այո, տրամադրում ենք անվճար խորհրդատվություն և նախահաշիվ։";
+
+document.getElementById("faqQ3").innerHTML =
+"Որտե՞ղ եք աշխատում։";
+
+document.getElementById("faqA3").innerHTML =
+"Մենք ծառայություններ ենք մատուցում Հայաստանի ամբողջ տարածքում։";
         document.getElementById("testimonialsTitle").innerHTML =
 "Մեր հաճախորդների կարծիքները";
 
@@ -180,7 +221,26 @@ document.getElementById("navContact").innerHTML = "Կապ";
     }
 
     if(lang === "ru"){
+document.getElementById("faqTitle").innerHTML =
+"Часто задаваемые вопросы";
 
+document.getElementById("faqQ1").innerHTML =
+"Какие услуги вы предоставляете?";
+
+document.getElementById("faqA1").innerHTML =
+"Мы выполняем асфальтирование, бетонные работы, укладку тротуарной плитки, благоустройство, монтаж систем полива и наружного освещения.";
+
+document.getElementById("faqQ2").innerHTML =
+"Предоставляете ли вы бесплатную смету?";
+
+document.getElementById("faqA2").innerHTML =
+"Да, мы предоставляем бесплатные консультации и смету проекта.";
+
+document.getElementById("faqQ3").innerHTML =
+"Где вы работаете?";
+
+document.getElementById("faqA3").innerHTML =
+"Мы оказываем услуги по всей территории Армении.";
         document.getElementById("testimonialsTitle").innerHTML =
 "Отзывы наших клиентов";
 
