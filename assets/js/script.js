@@ -1,19 +1,17 @@
-
 const faqItems = document.querySelectorAll(".faq-item");
-faqItems.forEach(item => {
 
-    const button = item.querySelector(".faq-question");
+if (faqItems.length) {
 
-    button.addEventListener("click", () => {
+    faqItems.forEach(item => {
 
-        item.classList.toggle("active");
+        const button = item.querySelector(".faq-question");
+
+        button.addEventListener("click", () => {
+
+            item.classList.toggle("active");
+
+        });
 
     });
 
-});
-
-
-
-
-
-
+}
