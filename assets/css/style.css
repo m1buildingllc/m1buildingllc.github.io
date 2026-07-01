@@ -1436,3 +1436,9 @@ html[lang="hy"] .hero h1{
     box-shadow:0 12px 30px rgba(212,175,55,.35);
 
 }
+
+.mobile-language-switcher{
+
+    display:none;
+
+}
