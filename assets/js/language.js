@@ -1,37 +1,18 @@
 function setLanguage(lang){
 
- 
 
     if(lang === "en"){
 
-           document.getElementById("promoBadge").textContent = langData.promoBadge;
-document.getElementById("promoTitle").textContent = langData.promoTitle;
-document.getElementById("promoText").textContent = langData.promoText;
-document.getElementById("promo1").textContent = langData.promo1;
-document.getElementById("promo2").textContent = langData.promo2;
-document.getElementById("promo3").textContent = langData.promo3;
-document.getElementById("promo4").textContent = langData.promo4;
-document.getElementById("promo5").textContent = langData.promo5;
-document.getElementById("promoBtn").textContent = langData.promoBtn;
-
-        promoBadge:"NEW SERVICE",
-
-promoTitle:"Need a Professional Business Website?",
-
-promoText:"We design premium websites for construction companies, businesses, restaurants, hotels, online stores and more.",
-
-promo1:"✔ Premium Design",
-
-promo2:"✔ Mobile Friendly",
-
-promo3:"✔ Google SEO",
-
-promo4:"✔ Domain & Hosting",
-
-promo5:"✔ Fast Loading",
-
-promoBtn:"Request Your Website",
-
+document.getElementById("promoBadge").innerHTML = "NEW SERVICE";
+document.getElementById("promoTitle").innerHTML = "Need a Premium Business Website?";
+document.getElementById("promoText").innerHTML = "We design premium websites for construction companies, businesses, restaurants, hotels, online stores and more.";
+document.getElementById("promo1").innerHTML = "✔ Premium Design";
+document.getElementById("promo2").innerHTML = "✔ Mobile Friendly";
+document.getElementById("promo3").innerHTML = "✔ Google SEO";
+document.getElementById("promo4").innerHTML = "✔ Domain & Hosting";
+document.getElementById("promo5").innerHTML = "✔ Fast Loading";
+document.getElementById("promoBtn").innerHTML = "Request Your Websiter";
+     
         document.getElementById("whyText1").innerHTML =
 "We use durable, high-quality materials for every project.";
 
@@ -184,23 +165,16 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
-        promoBadge:"ՆՈՐ ԾԱՌԱՅՈՒԹՅՈՒՆ",
+     document.getElementById("promoBadge").innerHTML = "ՆՈՐ ԾԱՌԱՅՈՒԹՅՈՒՆ";
+document.getElementById("promoTitle").innerHTML = "Ձեր բիզնեսին պե՞տք է պրեմիում կայք";
+document.getElementById("promoText").innerHTML = "Մենք ստեղծում ենք պրեմիում կայքեր շինարարական ընկերությունների, բիզնեսների, ռեստորանների, հյուրանոցների, առցանց խանութների և այլ կազմակերպությունների համար։";
+document.getElementById("promo1").innerHTML = "✔ Պրեմիում դիզայն";
+document.getElementById("promo2").innerHTML = "✔ Հարմարեցված բջջայինի համար";
+document.getElementById("promo3").innerHTML = "✔ Google SEO";
+document.getElementById("promo4").innerHTML = "✔ Դոմեն և Հոսթինգ";
+document.getElementById("promo5").innerHTML = "✔ Արագ բեռնվող";
+document.getElementById("promoBtn").innerHTML = "Պատվիրել կայք";
 
-promoTitle:"Ձեզ պե՞տք է պրոֆեսիոնալ բիզնես կայք",
-
-promoText:"Մենք ստեղծում ենք պրեմիում կայքեր շինարարական ընկերությունների, բիզնեսների, ռեստորանների, հյուրանոցների, առցանց խանութների և այլ կազմակերպությունների համար։",
-
-promo1:"✔ Պրեմիում դիզայն",
-
-promo2:"✔ Հարմարեցված բջջայինի համար",
-
-promo3:"✔ Google SEO",
-
-promo4:"✔ Դոմեն և Հոսթինգ",
-
-promo5:"✔ Արագ բեռնվող",
-
-promoBtn:"Պատվիրել կայք",
 
         document.getElementById("ctaBtn").innerHTML =
 "Ստանալ անվճար առաջարկ";
@@ -359,23 +333,17 @@ document.getElementById("navContact").innerHTML = "Կապ";
 
     if(lang === "ru"){
 
-        promoBadge:"НОВАЯ УСЛУГА",
+          document.getElementById("promoBadge").innerHTML = "НОВАЯ УСЛУГА";
+document.getElementById("promoTitle").innerHTML = "Вашему бизнесу нужен премиальный сайт?";
+document.getElementById("promoText").innerHTML = "Мы создаем премиальные сайты для строительных компаний, бизнеса, ресторанов, гостиниц, интернет-магазинов и других организаций.";
+document.getElementById("promo1").innerHTML = "✔ Премиальный дизайн;
+document.getElementById("promo2").innerHTML = "✔ Адаптация под мобильные";
+document.getElementById("promo3").innerHTML = "✔ Google SEO";
+document.getElementById("promo4").innerHTML = "✔ Домен и хостинг";
+document.getElementById("promo5").innerHTML = "✔ Быстрая загрузка";
+document.getElementById("promoBtn").innerHTML = "Заказать сайт";
 
-promoTitle:"Нужен профессиональный сайт для бизнеса?",
 
-promoText:"Мы создаем премиальные сайты для строительных компаний, бизнеса, ресторанов, гостиниц, интернет-магазинов и других организаций.",
-
-promo1:"✔ Премиальный дизайн",
-
-promo2:"✔ Адаптация под мобильные",
-
-promo3:"✔ Google SEO",
-
-promo4:"✔ Домен и хостинг",
-
-promo5:"✔ Быстрая загрузка",
-
-promoBtn:"Заказать сайт",
         document.getElementById("ctaBtn").innerHTML =
 "Получить бесплатное предложение";
         document.getElementById("ctaText").innerHTML =
@@ -529,5 +497,7 @@ document.getElementById("navContact").innerHTML = "Контакты";
 
     }
 
+
+ 
 }
 
