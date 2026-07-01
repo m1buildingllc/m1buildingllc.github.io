@@ -11,7 +11,7 @@ document.getElementById("promo2").innerHTML = "✔ Mobile Friendly";
 document.getElementById("promo3").innerHTML = "✔ Google SEO";
 document.getElementById("promo4").innerHTML = "✔ Domain & Hosting";
 document.getElementById("promo5").innerHTML = "✔ Fast Loading";
-document.getElementById("promoBtn").innerHTML = "Request Your Websiter";
+document.getElementById("promoBtn").innerHTML = "Request Your Website";
      
         document.getElementById("whyText1").innerHTML =
 "We use durable, high-quality materials for every project.";
@@ -336,7 +336,7 @@ document.getElementById("navContact").innerHTML = "Կապ";
           document.getElementById("promoBadge").innerHTML = "НОВАЯ УСЛУГА";
 document.getElementById("promoTitle").innerHTML = "Вашему бизнесу нужен премиальный сайт?";
 document.getElementById("promoText").innerHTML = "Мы создаем премиальные сайты для строительных компаний, бизнеса, ресторанов, гостиниц, интернет-магазинов и других организаций.";
-document.getElementById("promo1").innerHTML = "✔ Премиальный дизайн;
+document.getElementById("promo1").innerHTML = "✔ Премиальный дизайн";
 document.getElementById("promo2").innerHTML = "✔ Адаптация под мобильные";
 document.getElementById("promo3").innerHTML = "✔ Google SEO";
 document.getElementById("promo4").innerHTML = "✔ Домен и хостинг";
