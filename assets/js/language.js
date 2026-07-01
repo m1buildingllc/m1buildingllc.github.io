@@ -1,6 +1,10 @@
 function setLanguage(lang){
 
-    document.getElementById("promoBadge").textContent = langData.promoBadge;
+ 
+
+    if(lang === "en"){
+
+           document.getElementById("promoBadge").textContent = langData.promoBadge;
 document.getElementById("promoTitle").textContent = langData.promoTitle;
 document.getElementById("promoText").textContent = langData.promoText;
 document.getElementById("promo1").textContent = langData.promo1;
@@ -9,8 +13,6 @@ document.getElementById("promo3").textContent = langData.promo3;
 document.getElementById("promo4").textContent = langData.promo4;
 document.getElementById("promo5").textContent = langData.promo5;
 document.getElementById("promoBtn").textContent = langData.promoBtn;
-
-    if(lang === "en"){
 
         promoBadge:"NEW SERVICE",
 
