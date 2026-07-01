@@ -1,6 +1,34 @@
 function setLanguage(lang){
 
+    document.getElementById("promoBadge").textContent = langData.promoBadge;
+document.getElementById("promoTitle").textContent = langData.promoTitle;
+document.getElementById("promoText").textContent = langData.promoText;
+document.getElementById("promo1").textContent = langData.promo1;
+document.getElementById("promo2").textContent = langData.promo2;
+document.getElementById("promo3").textContent = langData.promo3;
+document.getElementById("promo4").textContent = langData.promo4;
+document.getElementById("promo5").textContent = langData.promo5;
+document.getElementById("promoBtn").textContent = langData.promoBtn;
+
     if(lang === "en"){
+
+        promoBadge:"NEW SERVICE",
+
+promoTitle:"Need a Professional Business Website?",
+
+promoText:"We design premium websites for construction companies, businesses, restaurants, hotels, online stores and more.",
+
+promo1:"✔ Premium Design",
+
+promo2:"✔ Mobile Friendly",
+
+promo3:"✔ Google SEO",
+
+promo4:"✔ Domain & Hosting",
+
+promo5:"✔ Fast Loading",
+
+promoBtn:"Request Your Website",
 
         document.getElementById("whyText1").innerHTML =
 "We use durable, high-quality materials for every project.";
@@ -153,6 +181,24 @@ document.getElementById("navContact").innerHTML = "Contact";
     }
 
     if(lang === "hy"){
+
+        promoBadge:"ՆՈՐ ԾԱՌԱՅՈՒԹՅՈՒՆ",
+
+promoTitle:"Ձեզ պե՞տք է պրոֆեսիոնալ բիզնես կայք",
+
+promoText:"Մենք ստեղծում ենք պրեմիում կայքեր շինարարական ընկերությունների, բիզնեսների, ռեստորանների, հյուրանոցների, առցանց խանութների և այլ կազմակերպությունների համար։",
+
+promo1:"✔ Պրեմիում դիզայն",
+
+promo2:"✔ Հարմարեցված բջջայինի համար",
+
+promo3:"✔ Google SEO",
+
+promo4:"✔ Դոմեն և Հոսթինգ",
+
+promo5:"✔ Արագ բեռնվող",
+
+promoBtn:"Պատվիրել կայք",
 
         document.getElementById("ctaBtn").innerHTML =
 "Ստանալ անվճար առաջարկ";
@@ -311,6 +357,23 @@ document.getElementById("navContact").innerHTML = "Կապ";
 
     if(lang === "ru"){
 
+        promoBadge:"НОВАЯ УСЛУГА",
+
+promoTitle:"Нужен профессиональный сайт для бизнеса?",
+
+promoText:"Мы создаем премиальные сайты для строительных компаний, бизнеса, ресторанов, гостиниц, интернет-магазинов и других организаций.",
+
+promo1:"✔ Премиальный дизайн",
+
+promo2:"✔ Адаптация под мобильные",
+
+promo3:"✔ Google SEO",
+
+promo4:"✔ Домен и хостинг",
+
+promo5:"✔ Быстрая загрузка",
+
+promoBtn:"Заказать сайт",
         document.getElementById("ctaBtn").innerHTML =
 "Получить бесплатное предложение";
         document.getElementById("ctaText").innerHTML =
@@ -465,3 +528,4 @@ document.getElementById("navContact").innerHTML = "Контакты";
     }
 
 }
+
