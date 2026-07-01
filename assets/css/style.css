@@ -1437,3 +1437,19 @@ html[lang="hy"] .hero h1{
     box-shadow:0 10px 25px rgba(212,175,55,.35);
 
 }
+
+/* ==========================================
+   ARMENIAN & RUSSIAN FONT SIZE
+========================================== */
+
+html[lang="hy"]{
+
+    font-size:94%;
+
+}
+
+html[lang="ru"]{
+
+    font-size:94%;
+
+}
