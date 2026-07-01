@@ -55,3 +55,23 @@ header{
 }
 
 }
+
+/* ==========================================
+   MOBILE ARMENIAN & RUSSIAN
+========================================== */
+
+@media (max-width:768px){
+
+html[lang="hy"]{
+
+    font-size:70%;
+
+}
+
+html[lang="ru"]{
+
+    font-size:80%;
+
+}
+
+}
