@@ -3,9 +3,8 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
-document.getElementById("promoBadge").innerHTML = "NEW SERVICE";
-document.getElementById("promoTitle").innerHTML = "Need a Premium Business Website?";
-document.getElementById("promoText").innerHTML = "We design premium websites for construction companies, businesses, restaurants, hotels, online stores and more.";
+document.getElementById("promoTitle").innerHTML = "Need a Website That Wins Clients?";
+document.getElementById("promoText").innerHTML = "We build modern, fast and premium websites that help your business build trust, attract more clients and grow.";
 document.getElementById("promo1").innerHTML = "✔ Premium Design";
 document.getElementById("promo2").innerHTML = "✔ Mobile Friendly";
 document.getElementById("promo3").innerHTML = "✔ Google SEO";
@@ -165,9 +164,9 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
-     document.getElementById("promoBadge").innerHTML = "ՆՈՐ ԾԱՌԱՅՈՒԹՅՈՒՆ";
-document.getElementById("promoTitle").innerHTML = "Ձեր բիզնեսին պե՞տք է պրեմիում կայք";
-document.getElementById("promoText").innerHTML = "Մենք ստեղծում ենք պրեմիում կայքեր շինարարական ընկերությունների, բիզնեսների, ռեստորանների, հյուրանոցների, առցանց խանութների և այլ կազմակերպությունների համար։";
+     
+document.getElementById("promoTitle").innerHTML = "Ձեր բիզնեսին հաճախորդներ բերող կայք է պետք՞";
+document.getElementById("promoText").innerHTML = "Մենք ստեղծում ենք ժամանակակից, արագ և պրեմիում կայքեր, որոնք օգնում են ձեր բիզնեսին վստահություն ներշնչել, ավելի շատ հաճախորդներ ներգրավել և աճել։";
 document.getElementById("promo1").innerHTML = "✔ Պրեմիում դիզայն";
 document.getElementById("promo2").innerHTML = "✔ Հարմարեցված բջջայինի համար";
 document.getElementById("promo3").innerHTML = "✔ Google SEO";
@@ -333,9 +332,9 @@ document.getElementById("navContact").innerHTML = "Կապ";
 
     if(lang === "ru"){
 
-          document.getElementById("promoBadge").innerHTML = "НОВАЯ УСЛУГА";
-document.getElementById("promoTitle").innerHTML = "Вашему бизнесу нужен премиальный сайт?";
-document.getElementById("promoText").innerHTML = "Мы создаем премиальные сайты для строительных компаний, бизнеса, ресторанов, гостиниц, интернет-магазинов и других организаций.";
+         
+document.getElementById("promoTitle").innerHTML = "Нужен сайт, который привлекает клиентов?";
+document.getElementById("promoText").innerHTML = "Мы создаем современные, быстрые и премиальные сайты, которые помогают вашему бизнесу завоевывать доверие, привлекать больше клиентов и развиваться.";
 document.getElementById("promo1").innerHTML = "✔ Премиальный дизайн";
 document.getElementById("promo2").innerHTML = "✔ Адаптация под мобильные";
 document.getElementById("promo3").innerHTML = "✔ Google SEO";
