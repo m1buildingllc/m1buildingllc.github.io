@@ -1438,48 +1438,4 @@ html[lang="hy"] .hero h1{
 
 }
 
-/* ======================================
-   Armenian + English + Russian Font Size (Mobile)
-====================================== */
 
-@media (max-width:900px){
-
-html[lang="hy"] .hero h1,
-html[lang="en"] .hero h1,
-html[lang="ru"] .hero h1{
-    font-size:36px;
-    line-height:1.2;
-}
-
-html[lang="hy"] .hero p,
-html[lang="en"] .hero p,
-html[lang="ru"] .hero p{
-    font-size:15px;
-    line-height:26px;
-}
-
-html[lang="hy"] h2,
-html[lang="en"] h2,
-html[lang="ru"] h2{
-    font-size:28px;
-}
-
-html[lang="hy"] h3,
-html[lang="en"] h3,
-html[lang="ru"] h3{
-    font-size:22px;
-}
-
-html[lang="hy"] p,
-html[lang="en"] p,
-html[lang="ru"] p,
-html[lang="hy"] a,
-html[lang="en"] a,
-html[lang="ru"] a,
-html[lang="hy"] button,
-html[lang="en"] button,
-html[lang="ru"] button{
-    font-size:15px;
-}
-
-}
