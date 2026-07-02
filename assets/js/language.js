@@ -4,8 +4,8 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
-document.getElementById("promoTitle").innerHTML = "Need a Website That Wins Clients?";
-document.getElementById("promoText").innerHTML = "We build modern, fast and premium websites that help your business build trust, attract more clients and grow.";
+document.getElementById("promoTitle").innerHTML = "A Premium Website for Your Business";
+document.getElementById("promoText").innerHTML = "We create modern, fast and SEO-optimized websites that help your business build trust, attract more customers and grow online.";
 document.getElementById("promo1").innerHTML = "✔ Premium Design";
 document.getElementById("promo2").innerHTML = "✔ Mobile Friendly";
 document.getElementById("promo3").innerHTML = "✔ Google SEO";
@@ -166,8 +166,8 @@ document.getElementById("navContact").innerHTML = "Contact";
     if(lang === "hy"){
 
      
-document.getElementById("promoTitle").innerHTML = "Ձեր բիզնեսին հաճախորդներ բերող կայք է պետք՞";
-document.getElementById("promoText").innerHTML = "Մենք ստեղծում ենք ժամանակակից, արագ և պրեմիում կայքեր, որոնք օգնում են ձեր բիզնեսին վստահություն ներշնչել, ավելի շատ հաճախորդներ ներգրավել և աճել։";
+document.getElementById("promoTitle").innerHTML = "Պրեմիում կայք՝ ձեր բիզնեսի համար";
+document.getElementById("promoText").innerHTML = "Մենք ստեղծում ենք ժամանակակից, արագ և SEO-ով օպտիմիզացված կայքեր, որոնք օգնում են ձեր բիզնեսին վստահություն ներշնչել, նոր հաճախորդներ ներգրավել և հաջողությամբ զարգանալ առցանց։";
 document.getElementById("promo1").innerHTML = "✔ Պրեմիում դիզայն";
 document.getElementById("promo2").innerHTML = "✔ Հարմարեցված բջջայինի համար";
 document.getElementById("promo3").innerHTML = "✔ Google SEO";
@@ -334,8 +334,8 @@ document.getElementById("navContact").innerHTML = "Կապ";
     if(lang === "ru"){
 
          
-document.getElementById("promoTitle").innerHTML = "Нужен сайт, который привлекает клиентов?";
-document.getElementById("promoText").innerHTML = "Мы создаем современные, быстрые и премиальные сайты, которые помогают вашему бизнесу завоевывать доверие, привлекать больше клиентов и развиваться.";
+document.getElementById("promoTitle").innerHTML = "Премиальный сайт для вашего бизнеса";
+document.getElementById("promoText").innerHTML = "Мы создаем современные, быстрые и SEO-оптимизированные сайты, которые помогают вашему бизнесу завоевывать доверие, привлекать новых клиентов и успешно развиваться в интернете.";
 document.getElementById("promo1").innerHTML = "✔ Премиальный дизайн";
 document.getElementById("promo2").innerHTML = "✔ Адаптация под мобильные";
 document.getElementById("promo3").innerHTML = "✔ Google SEO";
