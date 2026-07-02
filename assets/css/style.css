@@ -1443,3 +1443,12 @@ html[lang="hy"] .hero h1{
 .mobile-language-switcher{
     display:none;
 }
+
+/* Force same hero title size for all languages */
+
+html[lang="hy"] .hero h1,
+html[lang="en"] .hero h1,
+html[lang="ru"] .hero h1{
+    font-size:58px !important;
+    line-height:1.15 !important;
+}
